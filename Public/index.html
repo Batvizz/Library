@@ -15,6 +15,8 @@
         <!-- Core theme CSS (includes Bootstrap 5.1)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       <!-- Font Awesome-->
+        <link href="/Public/assets/FontaWesome-6.0.0/css/all.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>      
@@ -48,12 +50,12 @@
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-5">
-                                    <li class="nav-item active ms-5"><a class="nav-link" href="">INICIO</a></li>
-                                    <li class="nav-item ms-5"><a class="nav-link" href="">INSTITUCIONAL </a></li>
-                                    <li class="nav-item ms-5"><a class="nav-link" href="" title="">CATALOGO</a></li> 
-                                    <li class="nav-item ms-5"><a class="nav-link" href="" title="">COMERCIALIZACION</a></li> 
-                                    <li class="nav-item ms-5"><a class="nav-link" href="sobreNosotros.html" title="Medios de Comunicación de la UNSL">ACERCA DE NOSOTROS</a></li>
+                                <ul class="navbar-nav ms-5 ">
+                                    <li class="nav-item active ms-5"><a class="nav-link text-white" href="#">INICIO</a></li>
+                                    <li class="nav-item ms-5"><a class="nav-link text-white" href="institucional.html">INSTITUCIONAL </a></li>
+                                    <li class="nav-item ms-5"><a class="nav-link text-white" href="catalogo.html" title="catálogo">CATÁLOGO</a></li> 
+                                    <li class="nav-item ms-5"><a class="nav-link text-white" href="comercializacion.html" title="Comercialización">COMERCIALIZACIÓN</a></li> 
+                                    <li class="nav-item ms-5"><a class="nav-link text-white" href="sobreNosotros.html" title="Medios de Comunicación de la UNSL">NOSOTROS</a></li>                                    
                                 </ul>
                             <div class=" row col-md-4 col-sm-8 d-flex justify-content-end pr-2">
                                 <div class="col-2 pl-2">
@@ -83,12 +85,12 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner bg-dark">
                     <div class="carousel-item active">
                         <section class="features-icons bg-light text-center">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-6">
                                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
                                             <h3>Noticia 1</h3>
@@ -98,15 +100,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="carousel-item">
-                        <section class="features-icons bg-light text-center">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-6">
                                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
                                             <h3>Noticia 2</h3>
@@ -124,10 +118,20 @@
                         <section class="features-icons bg-light text-center">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-6">
                                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
                                             <h3>Noticia 3</h3>
+                                            <p class="lead mb-0">
+                                                Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
+                                                Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                                            <h3>Noticia 4</h3>
                                             <p class="lead mb-0">
                                                 Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
                                                 Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
@@ -138,6 +142,7 @@
                             </div>
                         </section>
                     </div>
+                   
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
