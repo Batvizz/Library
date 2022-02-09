@@ -11383,6 +11383,10 @@ footer.footer {
 
 .logounsl{
   width: 400px;
-  height: 250px;
-  float: right;
+  height: 250px;  
 }
+
+.imagenlogo{
+  float: left;
+}
+
