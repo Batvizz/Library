@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap 5.1)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     
     <body>      
@@ -38,87 +39,116 @@
         <!--------------------------------------Barra de Navegacion--------------------------------->
             <div class="fixed-top" style="background-color: #30408B;">
                 <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #30408B;">
-                    <a class="navbar-brand" href="">
-                    <img src="/Public/assets/img/logo 1.png" width="150" class="d-inline-block align-top" alt="Escudo NEU">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #30408B;">
+                        <a class="navbar-brand" href="">
+                        <img src="/Public/assets/img/logo1.webp" width="250" class="d-inline-block align-top" alt="Logo NEU">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-5">
-                            <li class="nav-item active ms-5"><a class="nav-link" href="">INICIO</a></li>
-                            <li class="nav-item ms-5"><a class="nav-link" href="">INSTITUCIONAL </a></li>
-                            <li class="nav-item ms-5"><a class="nav-link" href="" title="Conocé toda la oferta académica que ofrece la UNSL">CATALOGO</a></li> 
-                            <li class="nav-item ms-5"><a class="nav-link" href="sobreNosotros.html" title="Medios de Comunicación de la UNSL">ACERCA DE NOSOTROS</a></li>
-                        </ul>
-                        <div class=" row col-md-4 col-sm-8 d-flex justify-content-end pr-2">
-                            <div class="col-2 pl-2">
-                            <a class="nav-link" href="" title="Facebook" target="_blank">
-                                <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logofb.png" width="30px" alt="Logo Facebook">
-                            </a>
-                            </div>
-                            <div class="col-2 pl-1">
-                            <a class="nav-link" href="" title="UNSL Activa" target="_blank">
-                                <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logoinsta.png" width="30px" alt="Logo Instagram">
-                            </a>
-                            </div>
-                            <div class="col-2 pl-1">
-                            <a class="nav-link" href="" title="" target="_blank">
-                                <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logoyt.png" width="30px" alt="Logo Youtube">
-                            </a>
-                            </div>
-                            <div class="col-2 pl-1 pr-2">
-                            <a class="nav-link" href="" title="Twitter" target="_blank">
-                                <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logotw.png" width="30px" alt="Logo Twitter">
-                            </a>
-                            </div>
-                            <!--div class="col-4" style="margin: 0 0 0 0;">                  
-                            <input class="form-control" id="myInput" type="text" placeholder="Buscador">
-                            </div-->
-                        </div>              
-                    </div>
-                </nav>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-5">
+                                    <li class="nav-item active ms-5"><a class="nav-link" href="">INICIO</a></li>
+                                    <li class="nav-item ms-5"><a class="nav-link" href="">INSTITUCIONAL </a></li>
+                                    <li class="nav-item ms-5"><a class="nav-link" href="" title="">CATALOGO</a></li> 
+                                    <li class="nav-item ms-5"><a class="nav-link" href="" title="">COMERCIALIZACION</a></li> 
+                                    <li class="nav-item ms-5"><a class="nav-link" href="sobreNosotros.html" title="Medios de Comunicación de la UNSL">ACERCA DE NOSOTROS</a></li>
+                                </ul>
+                            <div class=" row col-md-4 col-sm-8 d-flex justify-content-end pr-2">
+                                <div class="col-2 pl-2">
+                                    <a class="nav-link" href="" title="Facebook" target="_blank">
+                                    <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logofb.png" width="30px" alt="Logo Facebook">
+                                    </a>
+                                </div>
+                                <div class="col-2 pl-1 pr-2">
+                                    <a class="nav-link" href="" title="Twitter" target="_blank">
+                                    <img src="http://www.unsl.edu.ar/application/assets/iconos/redes-sociales/logotw.png" width="30px" alt="Logo Twitter">
+                                </a>
+                                </div>
+                                <!--div class="col-4" style="margin: 0 0 0 0;">                  
+                                <input class="form-control" id="myInput" type="text" placeholder="Buscador">
+                                </div-->
+                            </div>              
+                        </div>
+                    </nav>
                 </div>
-        </div>
+            </div>
         <!---------------------------------------------------------------------------->
 
-        <!---------------------------------------------Noticias SECTION----------------------------------->
-            <section class="features-icons bg-light text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                                <h3>Noticia 1</h3>
-                                <p class="lead mb-0">
-                                    Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
-                                    Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
-                                </p>
+        <!---------------------------------------------Noticias SECTION----------------------------------->  
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <section class="features-icons bg-light text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                                            <h3>Noticia 1</h3>
+                                            <p class="lead mb-0">
+                                                Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
+                                                Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                                <h3>Noticia 2</h3>
-                                <p class="lead mb-0">
-                                    Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
-                                    Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
-                                </p>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="features-icons bg-light text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                                            <h3>Noticia 2</h3>
+                                            <p class="lead mb-0">
+                                                Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
+                                                Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                                <h3>Noticia 3</h3>
-                                <p class="lead mb-0">
-                                    Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
-                                    Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
-                                </p>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="features-icons bg-light text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                                            <h3>Noticia 3</h3>
+                                            <p class="lead mb-0">
+                                                Para escribir texto dentro de un documento HTML simplemente tenemos que añadir texto al fichero que contenga nuestra página web. Así de simple. Solo añadimos el texto que queramos visualizar.
+                                                Si bien deberemos de tener en cuenta algunos condicionantes. Sobre todo si queremos insertar caracteres o símbolos particulares de nuestro idioma.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                        </section>
                     </div>
                 </div>
-            </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                
         <!----------------------------------------------------------------------------------------->
 
 
@@ -222,8 +252,9 @@
                 </div>
             </div>
         </section>
+
         <!-- Footer-->
-        <footer class="footer bg-light">
+        <footer class="footer bg-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
@@ -264,4 +295,10 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </html>
