@@ -11303,7 +11303,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  filter: blur(1px);
+  filter: blur(0px);
   background: url("../assets/img/UNSL2.webp") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -11312,7 +11312,7 @@ header.masthead {
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  
   height: 100%;
   width: 100%;
   top: 0;
