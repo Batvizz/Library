@@ -11303,7 +11303,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  filter: blur(4px);
+  filter: blur(1px);
   background: url("../assets/img/UNSL2.webp") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -11379,4 +11379,10 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.logounsl{
+  width: 400px;
+  height: 250px;
+  float: right;
 }
