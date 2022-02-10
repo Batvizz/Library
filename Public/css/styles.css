@@ -4020,6 +4020,14 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+.nav-redes{
+  color: #ffffff;
+}
+
+.nav-redes:hover{
+  color: #160b79;
+}
+
 .tab-content > .tab-pane {
   display: none;
 }
