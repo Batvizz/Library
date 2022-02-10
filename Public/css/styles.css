@@ -4028,6 +4028,10 @@ textarea.form-control-lg {
   color: #160b79;
 }
 
+.nav-textos:hover{
+  color: #790b0b;
+}
+
 .tab-content > .tab-pane {
   display: none;
 }
