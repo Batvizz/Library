@@ -7834,6 +7834,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
+
 .bg-info {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
@@ -7847,6 +7848,10 @@ textarea.form-control-lg {
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-unsl {
+  background-color: #30408B;
 }
 
 .bg-light {
