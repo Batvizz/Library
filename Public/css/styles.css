@@ -4575,6 +4575,10 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+p.card-text {
+  color: black;
+}
+
 .card-link + .card-link {
   margin-left: 1rem;
 }
