@@ -598,6 +598,10 @@ progress {
   content: "— ";
 }
 
+.footer-text{
+  color: white;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
