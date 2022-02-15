@@ -1,0 +1,18 @@
+.dropmenu{
+    -webkit-transition: all 1s;
+    -moz-transition: all 12s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(-25%) scaleY(0);
+    transform-origin: top;
+  }
+
+  .dropmenu {
+    opacity: 1;
+    transform: translateX(-25%) scaleY(1);
+  }
