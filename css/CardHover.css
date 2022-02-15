@@ -22,8 +22,7 @@
 }
 
 .cards2 {
-    transition: all 0.2s ease;
-    cursor: pointer
+    transition: all 0.2s ease;    
 }
 
 .cards2:hover {
