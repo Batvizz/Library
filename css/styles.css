@@ -6008,6 +6008,7 @@ p.card-text {
 
 .carousel {
   position: relative;  
+ 
 }
 
 .carousel.pointer-event {
@@ -11314,14 +11315,15 @@ p.card-text {
   }
 }
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
 }
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+  height: 1rem;
 }
 .features-icons .features-icons-item .features-icons-icon i {
   font-size: 4.5rem;
